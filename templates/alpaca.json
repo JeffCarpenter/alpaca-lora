@@ -2,5 +2,5 @@
     "description": "Template used by Alpaca-LoRA.",
     "prompt_input": "Below is an strategy name that refers to a way of positively reframing negatively-framed thoughts, paired with a (very silly) negatively-framed thought. Write a response that means the same thing and reframes the thought in a positive light.\n\n### Strategy:\n{strategy}\n\n### Very Silly Person (<thought {id}> Negatively-Framed):\n{negative}\n\n### (Thought {id}) Positively-Framed:\n",
     "prompt_no_input": "Below is a strategy name that refers to a way of positively reframing negatively-framed thoughts. Reply with the same thought positively reframed.\n\n### Strategy:\n{strategy}\n\n### (Thought {id}) Positively Reframed:\n",
-    "response_split": "### (Thought X) Positively Reframed:"    
+    "response_split": "### (Thought {id}?) Positively Reframed:"    
 }
