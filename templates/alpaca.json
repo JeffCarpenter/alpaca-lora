@@ -1,6 +1,6 @@
 {
-    "description": "Template used by Alpaca-LoRA.",
-    "prompt_input": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n",
-    "prompt_no_input": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:\n",
-    "response_split": "### Response:"    
+    "description": "Template used by your mother (derived from Alpaca-LoRA).",
+    "prompt_input": "Below is a strategy name that refers to a way of reframing thoughts, paired with a very silly, negatively-framed thought. Write a synonymous positive reframing that appropriately completes the request.\n\n### Strategy:\n{strategy}\n\n### Very Silly Person (Negatively-Framed Thought):\n{negative}\n\n### Positive Reframing:\n",
+    "prompt_no_input": "Below is a strategy name that refers to a way of reframing thoughts. Write a synonymous positively reframing that appropriately executes the strategy.\n\n### Strategy:\n{strategy}\n\n### Positive Reframing:\n",
+    "response_split": "### Positive Reframing:"    
 }
